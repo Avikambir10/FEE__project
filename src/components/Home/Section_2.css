@@ -1,0 +1,35 @@
+section-2{
+    display: flex;
+    background-color: rgb(252, 252, 234);
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part-1 h1{
+    font-size: 25px;
+}
+
+.part-2 h1{
+    font-size: 25px;
+}
+
+.part-1 p{
+    font-size: 15px;
+}
+
+.part-2 p{
+    font-size: 15px;
+}
+
+section-2 .part-1{
+    padding-left: 100px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+section-2 .part-2{
+    padding-right: 100px;
+    padding-left: 50px;
+    align-items: center;
+}

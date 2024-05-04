@@ -1,0 +1,91 @@
+.container-2{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.login-box{
+    background: whitesmoke;
+    display: flex;
+}
+
+.content-left{
+    flex-basis: 50%;
+    padding: 40px 60px;
+}
+
+.login-right{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    padding: 40px;
+    background: rgb(37, 48, 53);
+    color: whitesmoke;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.container-2 p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+label{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.submit-btn{
+    all: unset;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: whitesmoke;
+    height: 40px;
+    width: 140px;
+    letter-spacing: 2px;
+    background-color: black;
+    box-shadow: 5px 5px;    
+}
+
+.content-left h3{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.content-left p{
+    margin-bottom: 10px;
+}
+
+.content-left p:last-child{
+    margin-bottom: 100px;
+}
+
+.login-right h3{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 30px;
+}

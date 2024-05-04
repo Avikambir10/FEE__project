@@ -1,0 +1,51 @@
+.section{
+    display: flex;
+    background-image: url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/em_in_adiclubdays_membership_ss24_launch_hp_bnr_updated_d_b686889539.jpg');
+    background-size: cover;
+    height: calc(100vh - 72px);
+    align-items: flex-end;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+.section h1{
+    display: flex;
+    line-height: 40px;
+    font-size: 40px;
+}
+
+.section p{
+    padding-top: 15px;
+    display: flex;
+    font-family: Arial;
+    font-size: 15px;
+    color: black;
+}
+
+.section-btns{
+    padding-top: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.section-btn{
+    all: unset;
+    cursor: pointer;
+    align-items: center;
+    text-indent: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+    height: 50px;
+    width: 230px;
+    letter-spacing: 2px;
+    background-color: black;
+}
+
+.section-btn a{
+    color: whitesmoke;
+}
+
+.section-btn a:hover{
+    color: rgb(159, 159, 159);
+    transition: 0.3s ease;
+}

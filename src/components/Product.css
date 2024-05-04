@@ -1,0 +1,49 @@
+.container-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 0px;
+    padding-bottom: 100px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.card:hover{
+    border: 1px solid black;
+}
+
+.product-img{
+    width: 320px;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 2px;
+}
+
+.detail .shoe-name{
+    font-weight: 400;
+}
+
+.detail .price{
+    font-weight: 200;
+    color: red;
+}
+
+.detail button{
+    all: unset;
+    cursor: pointer;
+    align-items: center;
+    font-weight: 600;
+    color: whitesmoke;
+    height: 40px;
+    padding: 0px 10px;
+    background-color: black;
+}
+
+.detail button:hover{
+    color: grey;
+    transition: 0.2s ease-in-out;
+}

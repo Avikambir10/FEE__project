@@ -1,0 +1,72 @@
+.logo-link{
+    font-family: sans-serif;
+    padding: 6px 16px;
+    cursor: pointer;
+    color: black;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+    z-index: 999;
+}
+
+.logo{
+    height: 35px;
+    padding-left: 70px;
+}
+
+nav ul{
+    display: inline-flex;
+    cursor: pointer;
+}
+
+ul li{
+    list-style: none;
+}
+
+.link{
+    color: black;
+    padding: 9px 15px;
+    letter-spacing: 1px;
+}
+
+.link:hover{
+    transition: none;
+    border-bottom: 3px solid black;
+}
+
+div .btn{
+    padding-right: 70px;
+}
+
+.login{
+    all: unset;
+    height: 32px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cart{
+    all: unset;
+    height: 32px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.home{
+    font-weight: 600;
+}
+
+.contact{
+    color: red;
+}
+
+.contact:hover{
+    border-bottom: 3px red solid;
+}
